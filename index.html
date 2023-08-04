@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Sifreleme</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-3">Metin Şifreliyiceye Hoş Geldiniz!</h1>
+
+        <div id="metin_giris">
+            <form>
+                <div class="form-group" id="form-grup">
+                <p>UYARI : Elinizdeki şifrelenmiş veya şifrelenmemiş metini girebilisiniz.Mesaj şifreleme veya çözümleme seçeneği mevcuttur.</p>
+                <label id="lab">Metin : </label>
+                <input type="text" class="form-control" id="metin" placeholder="Birşeyler yazınız...">
+                </div>
+                
+                <input type="number" class="form-control my-3" id="sifrele_cözümle_soru" placeholder="Şifrelemek için 1,Çözümlemek için 2 ye basın">
+
+                <p id="metin_bos_ise"></p>
+
+                <button type="submit" class="btn btn-primary mt-3" id="yolla-btn">Yolla</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scrpit.js"></script>
+</body>
+</html>
