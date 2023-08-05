@@ -77,6 +77,7 @@ let cevap = "";
 
 function metini_al(events) {
     metin = events.target.value;
+    metin = metin.toLowerCase();
     console.log(metin);
 }
 
